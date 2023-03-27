@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/proyectofinal_johnrestrepo",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
